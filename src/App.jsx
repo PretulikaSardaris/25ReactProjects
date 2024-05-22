@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className='flex flex-col gap-4'>
-      
-   {/* <Accordion /> */}
-   
+     <h1>Project 1 - Accordion</h1> 
+   <Accordion />
+   <h1>Project 2 -- Random Color Generator</h1> 
    <RandomColor />
     </div>
   )
