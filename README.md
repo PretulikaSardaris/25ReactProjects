@@ -1,8 +1,17 @@
-# React + Vite
+<h1> 25 React Projects </h1>
+<h2>These projects will help to enhance react skills  </h2>
+<p> As the saying goes practise makes perfect, I have started with these basic looking react projects which you can check and suggest updates or try yourself </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p> You can check the deployed project here https://preetyreactproject.netlify.app/ </p>
+<h4>How to contribute?</h4>
+<ol>
 
-Currently, two official plugins are available:
+<li>Fork it
+<li>Clone it to your local system</li>
+<li>Make a new branch</li>
+<li>Make your changes</li>
+<li>Push it back to your repo</li>
+<li>Click the Compare & pull request button</li>
+<li>Click Create pull request to open a new pull request</li>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</ol>
