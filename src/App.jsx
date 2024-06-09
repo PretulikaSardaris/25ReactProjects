@@ -1,6 +1,7 @@
 
 import './App.css'
 import Accordion from './Projects/AccordionProject/Accordion'
+import LightNDarkMode from './Projects/Change theme/LightNDarkMode'
 import Slider from './Projects/Image Slider/Slider'
 import ListView from './Projects/ListView/ListView'
 import LoadMoreButton from './Projects/LoadMoreButton/LoadMoreButton'
@@ -13,6 +14,10 @@ function App() {
 
   return (
     <div className='flex flex-col gap-5 border-spacing-2'>
+ <h1>Project 8 -- Change theme </h1>
+   <LightNDarkMode />
+
+
       <h1>Project 7 -- Qr Code Generator </h1>
       <QrCodeGenerator />
 
