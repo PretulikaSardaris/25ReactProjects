@@ -7,6 +7,9 @@ import ListView from './Projects/ListView/ListView'
 import LoadMoreButton from './Projects/LoadMoreButton/LoadMoreButton'
 import QrCodeGenerator from './Projects/QrCodeGenerator'
 import RandomColor from './Projects/Random color generator/RandomColor'
+
+import Scroll from './Projects/Scroll-Indicator/Scroll'
+
 import StarRating from './Projects/Star Rating/StarRating'
 
 function App() {
@@ -14,6 +17,10 @@ function App() {
 
   return (
     <div className='flex flex-col gap-5 border-spacing-2'>
+
+<h1 className='mt-0'>Project 9 -- Scroll Indicator</h1>
+   <Scroll />
+
  <h1>Project 8 -- Change theme </h1>
    <LightNDarkMode />
 
