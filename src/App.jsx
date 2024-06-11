@@ -2,6 +2,7 @@
 import './App.css'
 import Accordion from './Projects/AccordionProject/Accordion'
 import LightNDarkMode from './Projects/Change theme/LightNDarkMode'
+import CustomTab from './Projects/Custom tab/CustomTab'
 import Slider from './Projects/Image Slider/Slider'
 import ListView from './Projects/ListView/ListView'
 import LoadMoreButton from './Projects/LoadMoreButton/LoadMoreButton'
@@ -17,6 +18,9 @@ function App() {
 
   return (
     <div className='flex flex-col gap-5 border-spacing-2'>
+
+<h1 className='mt-0'>Project 10 -- Custom Tab</h1>
+   <CustomTab />
 
 <h1 className='mt-0'>Project 9 -- Scroll Indicator</h1>
    <Scroll />
