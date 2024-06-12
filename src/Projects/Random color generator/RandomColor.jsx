@@ -37,7 +37,7 @@ const RandomColor = () => {
     <div>
       <button onClick={() => setHex(!hex)}>{hex ? 'Hex Color' : 'Normal Color'}</button>
      
-      <div className='w-full  h-40  border-blue-400 rounded-md text-black font-semibold'  style={{background : color}}>
+      <div className='w-96  h-96  border-blue-400 rounded-md text-black font-semibold'  style={{background : color}}>
         <button className='bg-white text-black font-bold text-sm position-center' onClick={switchColorType}>click to change</button>
         <h1 className='text-sm'>{color}</h1>
       </div>

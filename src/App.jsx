@@ -6,6 +6,7 @@ import CustomTab from './Projects/Custom tab/CustomTab'
 import Slider from './Projects/Image Slider/Slider'
 import ListView from './Projects/ListView/ListView'
 import LoadMoreButton from './Projects/LoadMoreButton/LoadMoreButton'
+import Modal from './Projects/ModalComponent/Modal'
 import QrCodeGenerator from './Projects/QrCodeGenerator'
 import RandomColor from './Projects/Random color generator/RandomColor'
 
@@ -17,9 +18,12 @@ function App() {
   
 
   return (
-    <div className='flex flex-col gap-5 border-spacing-2'>
+    <div className='flex flex-col items-center gap-20 border-spacing-2'>
 
-<h1 className='mt-0'>Project 10 -- Custom Tab</h1>
+<h1 className='mt-0'>Project 11 -- Modal COmponent</h1>
+<Modal />
+
+ <h1 className='mt-0'>Project 10 -- Custom Tab</h1>
    <CustomTab />
 
 <h1 className='mt-0'>Project 9 -- Scroll Indicator</h1>
@@ -48,7 +52,7 @@ function App() {
      <h1>Project 1 - Accordion</h1> 
    <Accordion /> 
 
-   
+    
    
    
 
