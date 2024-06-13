@@ -3,6 +3,7 @@ import './App.css'
 import Accordion from './Projects/AccordionProject/Accordion'
 import LightNDarkMode from './Projects/Change theme/LightNDarkMode'
 import CustomTab from './Projects/Custom tab/CustomTab'
+import GithubProfile from './Projects/GithubProfile/GithubProfile'
 import Slider from './Projects/Image Slider/Slider'
 import ListView from './Projects/ListView/ListView'
 import LoadMoreButton from './Projects/LoadMoreButton/LoadMoreButton'
@@ -19,8 +20,11 @@ function App() {
 
   return (
     <div className='flex flex-col items-center gap-20 border-spacing-2'>
+<h1 className='mt-0'>Project 12 -- Github Profile Finder </h1>
+  <GithubProfile />
 
-<h1 className='mt-0'>Project 11 -- Modal COmponent</h1>
+
+ <h1 className='mt-0'>Project 11 -- Modal Component</h1>
 <Modal />
 
  <h1 className='mt-0'>Project 10 -- Custom Tab</h1>
